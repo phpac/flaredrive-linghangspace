@@ -1,0 +1,20 @@
+{
+  "name": "flaredrive-linghangspace",
+  "compatibility_date": "2025-05-07",
+  "main": "./backend/index.ts",
+  "assets": {
+    "not_found_handling": "single-page-application",
+  },
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "linghangspace",
+      "preview_bucket_name": "linghangspace",
+    },
+  ],
+  "observability": {
+    "logs": {
+      "enabled": true,
+    },
+  },
+}
